@@ -162,4 +162,3 @@ size_t ggml_quantize_q3_K(const float * src, void * dst, int n, int k, int64_t *
 size_t ggml_quantize_q4_K(const float * src, void * dst, int n, int k, int64_t * hist);
 size_t ggml_quantize_q5_K(const float * src, void * dst, int n, int k, int64_t * hist);
 size_t ggml_quantize_q6_K(const float * src, void * dst, int n, int k, int64_t * hist);
-
